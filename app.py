@@ -22,7 +22,7 @@ For unlimited access, MoMo {MOMO} - GH30/month
 """
 
 # simple memory to know who is new (resets if server restarts, but ok for now)
-users = {{}}
+users = {}
 
 def ask_ai(user_id, question):
     url = "https://api.groq.com/openai/v1/chat/completions"
