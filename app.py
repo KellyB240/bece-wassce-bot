@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-MOMO = "0248807284"
+MOMO = "0240807284"
 VERIFY = "becewassce123"
 
 SYSTEM = f"""
@@ -51,7 +51,7 @@ def ask_ai(user_id, question):
 
 @app.route("/")
 def home():
-    return "BECE/WASSCE Bot Live - MoMo 0248807284"
+    return "BECE/WASSCE Bot Live - MoMo 0240807284"
 
 @app.route("/webhook", methods=["GET","POST"])
 def webhook():
