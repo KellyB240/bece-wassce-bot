@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 MOMO = "0240807284"
-VERIFY = "becewassce123"
+VERIFY = "bece-wassce-123"
 
 SYSTEM = f"""
 You are Ghana BECE/WASSCE teacher on WhatsApp.
